@@ -15,6 +15,7 @@ module top_module(
                     q[i] <= q[3] ^ q[0];
                 else
                     q[i] <= q[i+1];
+                    
             end
         end
     end
