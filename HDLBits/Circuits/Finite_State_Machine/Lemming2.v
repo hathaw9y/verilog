@@ -11,6 +11,8 @@ module top_module(
     parameter LEFT = 0, RIGHT =1, AAAH = 2;
 
     always @(*) begin
+        case (state)
+        asdf
         
     end
 
