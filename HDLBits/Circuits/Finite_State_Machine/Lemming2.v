@@ -10,6 +10,8 @@ module top_module(
     reg [1:0] state, next_state;
     parameter LEFT = 0, RIGHT =1, AAAH = 2;
 
-    
+    always @(*) begin
+        
+    end
 
 endmodule
